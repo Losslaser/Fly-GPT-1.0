@@ -1,0 +1,7 @@
+{
+  "model": "qwen2.5:0.5b",
+  "ollama_url": "http://localhost:11434/api/chat",
+  "reply_language": "English",
+  "reply_max_words": 45,
+  "use_ai_input_translation": true
+}

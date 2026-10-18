@@ -1,0 +1,93 @@
+{
+  "hunger": 54,
+  "energy": 79,
+  "curiosity": 64,
+  "fear": 0,
+  "last_action": "APPROACH_STIMULUS",
+  "weights": {
+    "food": {
+      "approach": -0.1569521732876693,
+      "avoid": -0.3626905075129442,
+      "explore": 0.20989162436403586,
+      "rest": 0.42255539355813976
+    },
+    "danger": {
+      "approach": 0.35418866698401463,
+      "avoid": 0.3048753881232641,
+      "explore": -0.308308306249931,
+      "rest": 0.2003195198869192
+    },
+    "light": {
+      "approach": -0.1290800374843022,
+      "avoid": -0.09980695467616962,
+      "explore": -0.20891145766906927,
+      "rest": -0.2686389201311118
+    },
+    "social": {
+      "approach": 0.23522684837152708,
+      "avoid": 0.1405668467398532,
+      "explore": 0.042493113288812,
+      "rest": -0.1382822618252746
+    }
+  },
+  "memories": [
+    {
+      "message": "Hi my little fly pet",
+      "action": "APPROACH_STIMULUS",
+      "stimuli": {
+        "food": 0.0,
+        "danger": 0.0,
+        "light": 0.0,
+        "social": 0.0
+      },
+      "feelings": [
+        "The fly's internal state barely changed."
+      ]
+    },
+    {
+      "message": "Hello my little pet",
+      "action": "APPROACH_STIMULUS",
+      "stimuli": {
+        "food": 0.0,
+        "danger": 0.0,
+        "light": 0.0,
+        "social": 0.0
+      },
+      "feelings": [
+        "The fly's internal state barely changed."
+      ]
+    },
+    {
+      "message": "dont wrry its me! your programmer",
+      "action": "APPROACH_STIMULUS",
+      "stimuli": {
+        "food": 0.0,
+        "danger": 0.0,
+        "light": 0.0,
+        "social": 0.0
+      },
+      "feelings": [
+        "The fly's internal state barely changed."
+      ]
+    },
+    {
+      "message": "i have food",
+      "action": "APPROACH_STIMULUS",
+      "stimuli": {
+        "food": 1.0,
+        "danger": 0.0,
+        "light": 0.0,
+        "social": 0.0
+      },
+      "feelings": [
+        "The fly started to feel less hungry (73 -> 54).",
+        "The fly started to feel more energetic (77 -> 79)."
+      ]
+    }
+  ],
+  "experiences": 4,
+  "last_feelings": [
+    "The fly started to feel less hungry (73 -> 54).",
+    "The fly started to feel more energetic (77 -> 79)."
+  ]
+}
